@@ -17,7 +17,7 @@ const mint = await createMint(
   payer,
   mintAuthority.publicKey,
   freezeAuthority.publicKey,
-  9 // We are using 9 to match the CLI decimal default exactly
+  9
 );
 describe("stakeHersh", () => {
   // Configure the client to use the local cluster.
